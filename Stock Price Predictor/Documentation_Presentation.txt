@@ -1,0 +1,52 @@
+# Financial Planning for Individuals
+
+## 1. Introduction:
+
+Financial planning is essential for individuals to manage their investments effectively and achieve their financial goals. In this project, we develop a predictive model to assist individual investors in making informed decisions about buying, selling, or holding stocks based on historical price data.
+
+## 2. Data Sources:
+
+- Source: Yahoo Finance
+- Timeframe: January 1, 2024, to March 21, 2024
+
+## 3. Data Preprocessing:
+
+- Handling Missing Values: Dropping rows with missing data.
+- Feature Engineering: Calculating daily percentage returns from closing prices.
+
+## 4. Model Selection and Training:
+
+- Predictive Model: Linear Regression
+- Training Process: Trained the model using historical stock data.
+- Optimization: No hyperparameter tuning performed.
+
+## 5. Evaluation Metrics:
+
+- Metric: Mean Squared Error (MSE)
+
+## 6. Decision Support System:
+
+- Provides recommendations based on the model's predictions:
+  - Buy: If predicted return is positive.
+  - Sell: If predicted return is negative.
+  - Hold: If predicted return is zero.
+
+## 7. Results and Findings:
+
+- Mean Squared Error (MSE): [Insert MSE value]
+- Visualization: Actual vs. Predicted Returns
+- Recommendation: Buy/Sell/Hold for the next trading day
+
+## 8. Future Improvements:
+
+- Incorporate more advanced predictive models.
+- Include additional features such as market sentiment analysis.
+
+## 9. Conclusion:
+
+This project demonstrates the application of data science in financial planning for individual investors. By leveraging predictive modeling and decision support systems, investors can make more informed decisions about their investments, ultimately helping them achieve their financial goals.
+
+## 10. References:
+
+- Scikit-learn Documentation: [https://scikit-learn.org/stable/documentation.html](https://scikit-learn.org/stable/documentation.html)
+- Yahoo Finance: [https://finance.yahoo.com/](https://finance.yahoo.com/)
